@@ -1,8 +1,8 @@
 import React from 'react';
 export const storeContext = React.createContext();
 export const initialState = {
-    user:'kiwis',
-    age:23
+    user:'poocoogoo',
+    age:32
 }
 export const reducer = (state, action)=>{
     switch (action.type) {
